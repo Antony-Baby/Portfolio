@@ -6,7 +6,7 @@
 .inner-body {
     width: 100%;
     height: 100%;
-    background-color: rgb(43, 143, 231);
+    /* background-color: rgb(43, 143, 231); */
     display: block;
 }
 
@@ -49,7 +49,7 @@
     display: flex;
     width: 100%;
     height: 30%;
-    background-color: rgb(231, 150, 43);
+    /* background-color: rgb(231, 150, 43); */
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -79,14 +79,38 @@
     border-radius: 15px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: black;
+    background-color: rgb(84, 160, 231);
+    box-shadow: 5px 10px #8a75e7;
 }
 
 .left-nav-links {
+    padding-top: 30px;
+    padding-left: 50px;
+    /* display: block; */
+}
+
+.left-nav-links span {
     display: block;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
 
 .left-nav-links a {
     text-decoration: none;
     color: white;
+}
+
+.left-nav-links img {
+    height: 20px;
+    width: 30px;
+}
+
+#profile-pic {
+    height: 180px;
+    width: 160px;
+    /* padding-bottom: 10px; */
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(68, 65, 65, 0.5);
+    margin-bottom: 15px;
 }
